@@ -40,6 +40,23 @@ li {
 }
 
 /* Typography */
+
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-white);
+  margin: 0px;
+}
+
+p {
+  line-height: 40px;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-light-grey);
+  margin: 0px;
+}
+
+/* Home section */
 #home {
   height: 600px;
   width: 100%;
@@ -48,13 +65,6 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-h1 {
-  font-size: var(--font-large);
-  font-weight: var(--weight-bold);
-  color: var(--color-white);
-  margin: 0px;
 }
 
 #home > h2 {
@@ -74,6 +84,7 @@ h1 {
 
 button {
   border-radius: 100px;
+
   font-size: var(--font-regular);
   padding: 20px 60px;
   background-color: var(--color-dark-pink);
@@ -81,4 +92,18 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+#about {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about > p {
+  width: 60%;
+  margin-bottom: 80px;
 }
