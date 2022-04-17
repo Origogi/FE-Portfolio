@@ -6,7 +6,6 @@
   --color-dark-pink: #f1005f;
   --color-light-grey: #7c7979;
 
-
   /* Font size */
   --font-large: 48px;
   --font-medium: 28px;
@@ -42,7 +41,7 @@ li {
 
 /* Typography */
 #home {
-  height: 500px;
+  height: 600px;
   width: 100%;
   background: black;
   display: flex;
@@ -58,28 +57,28 @@ h1 {
   margin: 0px;
 }
 
+#home > h2 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-white);
+  margin-top: 6px;
+}
+
 #home > p {
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   color: var(--color-light-grey);
-  margin: 0px;
-}
-
-#home  > h2 {
-  font-size: var(--font-regular);
-  font-weight: var(--weight-semi-bold);
-  color: var(--color-white);
-  margin: 0px;
+  margin-top: 16px;
+  margin-bottom: 40px;
 }
 
 button {
   border-radius: 100px;
   font-size: var(--font-regular);
-  padding: 20px 30px;
+  padding: 20px 60px;
   background-color: var(--color-dark-pink);
   color: var(--color-white);
   cursor: pointer;
   border: none;
   outline: none;
 }
-
