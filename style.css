@@ -32,8 +32,6 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   cursor: default;
-  font-size: 112.5%;
-  line-height: 1.6em;
 }
 
 ul {
@@ -100,18 +98,19 @@ p {
   justify-content: center;
 }
 
-#home > h2 {
+#home>h3 {
   font-size: var(--font-regular);
   font-weight: var(--weight-semi-bold);
   color: var(--color-white);
-  margin-top: 6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 #home > p {
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   color: var(--color-light-grey);
-  margin-top: 16px;
+  margin-top: 0px;
   margin-bottom: 40px;
 }
 
@@ -430,7 +429,7 @@ button {
 }
 
 
-/* @media screen and (min-width: 400px ?? max-width: 660px) {
+@media screen and (max-width: 660px) {
   .direction-l .desc,
   .direction-r .desc {
     margin: 1em 4em 0 4em;
